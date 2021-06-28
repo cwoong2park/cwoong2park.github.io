@@ -36,7 +36,17 @@ dt, dd {
         }
     }
 
-    .publication {
+    .education {
+        dt {
+            width: 70%;
+            padding-right: ($spacer * 2);
+        }
+        dd {
+            width: 30%;
+        }
+    }
+
+    .project {
         dt, dd {
             width: 50%;
         }

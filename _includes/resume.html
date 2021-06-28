@@ -1,6 +1,6 @@
 <!-----------------------------Education--------------------------->
 <h3 class="section-title">Education</h3>
-<dl class="experience">
+<dl class="education">
     {% for edu in site.data.education %}
         <dt>
             <p class="title">{{ edu.title }}</p>
@@ -14,7 +14,7 @@
 </dl>
 <!-----------------------------Research Interest--------------------------->
 <h3 class="section-title">Research Interest</h3>
-<dl class="education">
+<dl class="research_interest">
     {% for interests in site.data.research_interest %}
         <dt>
         </dt><!--
@@ -25,15 +25,15 @@
 </dl>
 <!-----------------------------Publication--------------------------->
 <h3 class="section-title">Publication</h3>
-<dl class="education">
-    {% for qualification in site.data.education %}
+<dl class="publication">
+    {% for pub in site.data.publication %}
         <dt>
-            <p class="title">{{ qualification.qualification }}</p>
-            <p class="company">{{ qualification.school }}</p>
-            <p class="period">{{ qualification.period }}</p>
+            <p class="title">{{ pub.title }}</p>
+            <p class="company">{{ pub.sub_title }}</p>
+            <p class="period">{{ pub.period }}</p>
         </dt><!--
         --><dd>
-            <p>{{ qualification.description }}</p>
+            <p>{{ pub.description }}</p>
         </dd>
     {% endfor %}
 </dl>
