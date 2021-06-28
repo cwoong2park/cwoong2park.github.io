@@ -27,6 +27,10 @@ dt, dd {
     }
 
     .research_interest {
+        dt {
+            width: 0%;
+            padding-right: ($spacer * 2);
+        }
         dd {
             width: 100%;
         }
