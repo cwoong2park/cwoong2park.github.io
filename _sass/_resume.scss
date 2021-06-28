@@ -55,6 +55,16 @@ dt, dd {
         }
     }
 
+    .research_experience {
+        dt {
+            width: 40%;
+            padding-right: $spacer /2;
+        }
+        dd {
+            width: 60%;
+        }
+    }
+
     .project {
         dt, dd {
             width: 50%;
