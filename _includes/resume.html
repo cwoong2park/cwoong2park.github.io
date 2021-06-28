@@ -15,14 +15,9 @@
 <!-----------------------------Research Interest--------------------------->
 <h3 class="section-title">Research Interest</h3>
 <dl class="education">
-    {% for qualification in site.data.education %}
-        <dt>
-            <p class="title">{{ qualification.qualification }}</p>
-            <p class="company">{{ qualification.school }}</p>
-            <p class="period">{{ qualification.period }}</p>
-        </dt><!--
-        --><dd>
-            <p>{{ qualification.description }}</p>
+    {% for interests in site.data.research_interest %}
+        <dd>
+            <p>{{ interests.description }}</p>
         </dd>
     {% endfor %}
 </dl>

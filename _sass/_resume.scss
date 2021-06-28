@@ -16,7 +16,7 @@ dt, dd {
         margin-bottom: 60px;
     }
 
-    .experience {
+    .education {
         dt {
             width: 30%;
             padding-right: ($spacer * 2);
@@ -26,7 +26,13 @@ dt, dd {
         }
     }
 
-    .education {
+    .research_interest {
+        dd {
+            width: 100%;
+        }
+    }
+
+    .publication {
         dt, dd {
             width: 50%;
         }
