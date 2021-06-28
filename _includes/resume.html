@@ -96,28 +96,27 @@
 <!-----------------------------Award--------------------------->
 <h3 class="section-title">Award</h3>
 <dl class="education">
-    {% for qualification in site.data.education %}
+    {% for awa in site.data.award %}
         <dt>
-            <p class="title">{{ qualification.qualification }}</p>
-            <p class="company">{{ qualification.school }}</p>
-            <p class="period">{{ qualification.period }}</p>
+            <p class="title">{{ awa.title }}</p>
+            <p class="company">{{ awa.sub_title }}</p>
+            <p class="period">{{ awa.period }}</p>
         </dt><!--
         --><dd>
-            <p>{{ qualification.description }}</p>
+            <p>{{ awa.description }}</p>
         </dd>
     {% endfor %}
 </dl>
 <!-----------------------------Skill--------------------------->
 <h3 class="section-title">Skill</h3>
 <dl class="education">
-    {% for qualification in site.data.education %}
+    {% for sk in site.data.skill %}
         <dt>
-            <p class="title">{{ qualification.qualification }}</p>
-            <p class="company">{{ qualification.school }}</p>
-            <p class="period">{{ qualification.period }}</p>
+            <p class="title">{{ sk.title }}</p>
+
         </dt><!--
         --><dd>
-            <p>{{ qualification.description }}</p>
+            <p>{{ sk.description }}</p>
         </dd>
     {% endfor %}
 </dl>
