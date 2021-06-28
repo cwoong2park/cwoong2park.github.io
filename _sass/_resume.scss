@@ -30,7 +30,7 @@ dt, dd {
             width: 0%;
         }
         dd {
-            width: 70%;
+            width: 100%;
         }
     }
 
@@ -45,6 +45,7 @@ dt, dd {
 
     .project {
         dt, dd {
+            padding-left: $spacer *2;
             width: 50%;
         }
     }

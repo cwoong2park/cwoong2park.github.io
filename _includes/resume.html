@@ -39,15 +39,15 @@
 </dl>
 <!-----------------------------Conference--------------------------->
 <h3 class="section-title">Conference</h3>
-<dl class="education">
-    {% for qualification in site.data.education %}
+<dl class="publication">
+    {% for conf in site.data.conference %}
         <dt>
-            <p class="title">{{ qualification.qualification }}</p>
-            <p class="company">{{ qualification.school }}</p>
-            <p class="period">{{ qualification.period }}</p>
+            <p class="title">{{ conf.title }}</p>
+            <p class="company">{{ conf.sub_title }}</p>
+            <p class="period">{{ conf.period }}</p>
         </dt><!--
         --><dd>
-            <p>{{ qualification.description }}</p>
+            <p>{{ conf.description }}</p>
         </dd>
     {% endfor %}
 </dl>
