@@ -37,10 +37,21 @@ dt, dd {
     .publication {
         dt {
             width: 70%;
+            padding-right: $spacer /2;
         }
         dd {
-            padding-left: $spacer *2;
-            width: 20%;
+            width: 30%;
+        }
+    }
+
+    .conference {
+        dt {
+            width: 50%;
+            padding-right: $spacer /2;
+        }
+        dd {
+            
+            width: 50%;
         }
     }
 
