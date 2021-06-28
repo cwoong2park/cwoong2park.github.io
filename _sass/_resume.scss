@@ -19,7 +19,6 @@ dt, dd {
     .education {
         dt {
             width: 30%;
-            padding-right: ($spacer * 2);
         }
         dd {
             width: 70%;
@@ -29,14 +28,13 @@ dt, dd {
     .research_interest {
         dt {
             width: 0%;
-            padding-right: ($spacer * 2);
         }
         dd {
-            width: 100%;
+            width: 70%;
         }
     }
 
-    .education {
+    .publication {
         dt {
             width: 70%;
             padding-right: ($spacer * 2);
