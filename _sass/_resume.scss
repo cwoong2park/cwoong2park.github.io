@@ -30,7 +30,7 @@ dt, dd {
             width: 0%;
         }
         dd {
-            width: 100%;
+            width: 80%;
         }
     }
 
@@ -39,13 +39,13 @@ dt, dd {
             width: 70%;
         }
         dd {
+            padding-left: $spacer *2;
             width: 20%;
         }
     }
 
     .project {
         dt, dd {
-            padding-left: $spacer *2;
             width: 50%;
         }
     }

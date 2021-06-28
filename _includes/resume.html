@@ -39,7 +39,7 @@
 </dl>
 <!-----------------------------Conference--------------------------->
 <h3 class="section-title">Conference</h3>
-<dl class="publication">
+<dl class="conference">
     {% for conf in site.data.conference %}
         <dt>
             <p class="title">{{ conf.title }}</p>
@@ -53,15 +53,15 @@
 </dl>
 <!-----------------------------Research Experience--------------------------->
 <h3 class="section-title">Research Experience</h3>
-<dl class="education">
-    {% for qualification in site.data.education %}
+<dl class="project">
+    {% for proj in site.data.research_experience %}
         <dt>
-            <p class="title">{{ qualification.qualification }}</p>
-            <p class="company">{{ qualification.school }}</p>
-            <p class="period">{{ qualification.period }}</p>
+            <p class="title">{{ proj.title }}</p>
+            <p class="company">{{ proj.sub_title }}</p>
+            <p class="period">{{ proj.period }}</p>
         </dt><!--
         --><dd>
-            <p>{{ qualification.description }}</p>
+            <p>{{ proj.description }}</p>
         </dd>
     {% endfor %}
 </dl>
