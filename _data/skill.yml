@@ -4,6 +4,9 @@
 -   title: Design Tool
     description: Revit, Formit, Rinoceros3D, AutoCAD, Indesign
 
+-   title: Hardware
+    description: Drone (DJI, under 2.5kg), Point Cloud Camera (LEIKA)
+
 -   title: Spatial Analysis
     description: QGIS, Dynamo, Grasshopper, DepthmapX
 
